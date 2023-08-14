@@ -25,11 +25,17 @@ export const GlobalStyles = createGlobalStyle`
     color: var(--gray-800);
     font-size: 13px;
     height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
   }
 
   a {
     text-decoration: none !important;
     cursor: pointer;
+  }
+
+  ul {
+    list-style: none;
   }
 
   hr {
@@ -42,7 +48,8 @@ export const GlobalStyles = createGlobalStyle`
     }
   }
 
-  input[type=text], input[type=email], input[type=password], select, .input {
+  input[type=text],
+  input[type=email], input[type=password], select, .input {
     display: flex;
     width: 100%;
     border: 1px solid var(--gray-200);
@@ -156,13 +163,17 @@ export const GlobalStyles = createGlobalStyle`
     --bg-gray-100: var(--gray-100);
     --bg-gray-200: var(--gray-200);
     --bg-gray-300: var(--gray-300);
+    --bg-gray-400: var(--gray-400);
     
     //borders
     --border-accordion: var(--gray-300);
     --border-gray: var(--gray-200);
     --border-card: var(--gray-300);
-    
-    
+
+    //color
+    --text-blue-middle: var(--blue-middle);
+    --text-gray-800: var(--gray-800);
+    --text-gray-900: var(--gray-900);
     
   }
 `;
