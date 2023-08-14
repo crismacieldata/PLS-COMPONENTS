@@ -154,6 +154,8 @@ export const GlobalStyles = createGlobalStyle`
     
     //backgrounds
     --bg-gray-100: var(--gray-100);
+    --bg-gray-200: var(--gray-200);
+    --bg-gray-300: var(--gray-300);
     
     //borders
     --border-accordion: var(--gray-300);
